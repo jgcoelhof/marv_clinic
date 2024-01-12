@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# marv_clinic
-=======
+
 # marv_clinic
 
 A new Flutter project.
