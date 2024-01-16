@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:marv_clinic/pages/home_page.dart';
+   import 'package:marv_clinic/widgets/navigation_drawer.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -63,7 +63,7 @@ class _SplashPageState extends State<SplashPage> {
     Future.delayed(Duration(milliseconds: timeToAnimationInMilliseconds + 300))
         .then((value) {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Homepage()));
+          context, MaterialPageRoute(builder: (context) => const NavigationDrawerWidget()));
     });
   }
 }
